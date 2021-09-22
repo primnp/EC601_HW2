@@ -22,3 +22,16 @@ b. Google NLP (Due Wednesday September 29th)
 
 
 **Overall Completion:**  Sunday October 10th
+
+
+Notes:
+* Error conditions
+  * What happens if twitter is not responding
+  * What happens if I pass the wrong handle
+  * What happens if Google NLP API does not respond back
+
+* Data back and forth
+  * What do I send?
+  * What do I get?
+  * What is the format of the data?
+  * How can I use such data?

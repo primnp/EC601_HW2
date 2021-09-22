@@ -19,4 +19,4 @@ b. Google NLP (Wednesday September 29th)
 * What are the basic user stories?
 
 
-Overall Completion:  Sunday October 10th
+**Overall Completion:**  Sunday October 10th

@@ -11,7 +11,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 
-no_of_tweets = 200
+no_of_tweets = 46
 tweets = [] #full_text
 likes = [] #favorite_count
 time = [] #created_at

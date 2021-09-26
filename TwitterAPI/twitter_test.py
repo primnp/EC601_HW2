@@ -1,3 +1,6 @@
+import tweepy
+import pandas as pd
+
 #twitter API credentials
 consumer_key = "your twitter API key"
 consumer_secret = "your twitter API secret"

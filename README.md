@@ -2,7 +2,11 @@
  EC601 A1 Fall 2021. Project 2: Build your own social media analyzer.
 
 ## MVP
+to be defined
+
 ## User Stories
+to be defined 
+
 ## Timeline
 **Phase 1:**
 

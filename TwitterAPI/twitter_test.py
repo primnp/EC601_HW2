@@ -17,7 +17,7 @@ likes = [] #favorite_count
 time = [] #created_at
 hashtag = [] #hashtag
 
-#retrieve 200 most recent tweets from a specific user (in this case, it's @danielricciardo)
+#retrieve 46 most recent tweets from a specific user (in this case, it's @danielricciardo)
 cursor = tweepy.Cursor(api.user_timeline, id="danielricciardo", tweet_mode="extended").items(no_of_tweets)
 
 for i in cursor:

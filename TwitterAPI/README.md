@@ -16,4 +16,4 @@ In addition to tweepy, user needs to have pandas in the python path. User can in
 > pip install pandas
 
 ## Output example
-This is an example of 40 tweets retrieved from @danielricciardo twitter account in dataframe format. The dataframe includes: tweets text, no of likes per tweets, time the tweets was created, and the hashtag associated with each tweets.
+This is an example of 46 tweets retrieved from @danielricciardo twitter account in dataframe format. The dataframe includes: tweets text, no of likes per tweets, time the tweets was created, and the hashtag associated with each tweets.

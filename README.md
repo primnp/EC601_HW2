@@ -22,6 +22,8 @@ Figure 1. Modular software design for social media analyzer mobile application
 </p>
 <br />
 
+## Mobile Application
+
 ## Timeline
 **Phase 1:**
 

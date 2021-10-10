@@ -23,7 +23,7 @@ b. Google NLP (Due Wednesday September 29th) **IN PROGRESS (will finish by 09/30
   * All your programs should be on GitHub including a README file explaining your tests and results.
 
 **Phase 2:**
-* Define MVP and user stories (Due Sunday October 3rd)
+* Define MVP and user stories ~~(Due Sunday October 3rd)~~ ***DONE***
 * Translate user stories to a modular design
 * Who is your user?
 * What are the basic user stories?

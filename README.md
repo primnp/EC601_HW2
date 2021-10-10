@@ -4,12 +4,22 @@
 ## MVP
 A mobile application that tells user the sentiment of text users from Twitter has tweeted
 
+## Target user
+* A marketing analyst who wants to understand customers behavior
+
 ## User Stories
-* As a user, I want to know the sentiment of the text so that I can analyze social media user's feelings.
-* As a user, I want to have a UI that is easy to use.
-* As a user, I want to save social media user's sentiment analysis so I can analyze changes in behavior.
-* As a user, I want to group social media users together using hashtags.
-* As a user, I want to see sentiments of different social media user under one hashtag so that I can compare them.
+* As a marketing analyst, I want to know the sentiment of the text so that I can analyze social media user's feelings.
+* As a marketing analyst, I want to save social media user's sentiment analysis so I can analyze changes in behavior.
+* As a marketing analyst, I want to have a UI that is easy to use.
+* As a marketing analyst, I want to group social media users together using hashtags.
+* As a marketing analyst, I want to see sentiments of different social media user under one hashtag so that I can compare them.
+
+## Modular software design
+<p align="center">
+Figure 1. Modular software design for social media analyzer mobile application
+<br><img src="/Images/msd.png" width="65%" />
+</p>
+<br />
 
 ## Timeline
 **Phase 1:**

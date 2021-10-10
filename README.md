@@ -6,6 +6,7 @@ A mobile application that tells user the sentiment of text users from Twitter ha
 
 ## Target user
 * A marketing analyst who wants to understand customers behavior
+* In general use, a target user can also be anyone who wants to understand sentiment behind specific tweets
 
 ## User Stories
 * As a marketing analyst, I want to know the sentiment of the text so that I can analyze social media user's feelings.

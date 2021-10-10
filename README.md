@@ -34,9 +34,9 @@ b. Google NLP (Due Wednesday September 29th) **IN PROGRESS (will finish by 09/30
 
 **Phase 2:**
 * Define MVP and user stories ~~(Due Sunday October 3rd)~~ ***DONE***
-* Translate user stories to a modular design
-* Who is your user?
-* What are the basic user stories?
+* Translate user stories to a modular design ***DONE***
+* Who is your user? ***DONE***
+* What are the basic user stories? ***DONE***
 
 
 **Overall Completion:**  Sunday October 10th

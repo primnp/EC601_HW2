@@ -2,7 +2,15 @@
  EC601 A1 Fall 2021. Project 2: Build your own social media analyzer.
 
 ## MVP
+A mobile application that tells user the sentiment of text users from Twitter has tweeted
+
 ## User Stories
+* As a user, I want to know the sentiment of the text so that I can analyze social media user's feelings.
+* As a user, I want to have a UI that is easy to use.
+* As a user, I want to save social media user's sentiment analysis so I can analyze changes in behavior.
+* As a user, I want to group social media users together using hashtags.
+* As a user, I want to see sentiments of different social media user under one hashtag so that I can compare them.
+
 ## Timeline
 **Phase 1:**
 

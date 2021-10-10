@@ -2,7 +2,7 @@
  EC601 A1 Fall 2021. Project 2: Build your own social media analyzer.
 
 ## MVP
-A mobile application that tells user the sentiment of text users from Twitter has tweeted
+A mobile application that tells user the sentiment of tweets from Twitter
 
 ## Target user
 * A marketing analyst who wants to understand customers behavior

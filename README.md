@@ -2,7 +2,7 @@
  EC601 A1 Fall 2021. Project 2: Build your own social media analyzer.
 
 ## MVP
-A mobile application that tells user the sentiment of tweets from Twitter
+A web application that tells user the sentiment of tweets from Twitter
 
 ## Target user
 * A marketing analyst who wants to understand customers behavior
@@ -17,7 +17,7 @@ A mobile application that tells user the sentiment of tweets from Twitter
 
 ## Modular software design
 <p align="center">
-Figure 1. Modular software design for social media analyzer mobile application
+Figure 1. Modular software design for social media analyzer web application
 <br><img src="/Images/msd.png" width="65%" />
 </p>
 <br />

@@ -41,19 +41,19 @@ URI  | What it does
 /soc-analyze/(string:username)/(int:nooftweets)/hashtag/(string:hashtag) | Find user's tweet text which has the specified hashtag
 
 ### Flask Example
-1. /soc-analyze/<string:username>/<int:nooftweets>
+1. /soc-analyze/(string:username)/(int:nooftweets)
 <p align="center">
 Figure 2. View all tweets from a specified user
 <br><img src="/Images/ex1.png" width="80%" />
 </p>
 <br />
-2. /soc-analyze/<string:username>/<int:nooftweets>/sentiments
+2. /soc-analyze/(string:username)/(int:nooftweets)/sentiments
 <p align="center">
 Figure 3. View all tweets entities and sentiment scores from a specified user
 <br><img src="/Images/ex2.png" width="80%" />
 </p>
 <br />
-3. /soc-analyze/<string:username>/<int:nooftweets>/hashtag/<string:hashtag>
+3. /soc-analyze/(string:username)/(int:nooftweets)/hashtag/(string:hashtag)
 <p align="center">
 Figure 4. Find user's tweet text which has the specified hastag
 <br><img src="/Images/ex3.png" width="80%" />

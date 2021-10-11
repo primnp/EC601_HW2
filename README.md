@@ -22,7 +22,7 @@ Figure 1. Modular software design for social media analyzer web application
 </p>
 <br />
 
-## Mobile Application
+## Web UI with Flask
 
 ## Timeline
 **Phase 1:**

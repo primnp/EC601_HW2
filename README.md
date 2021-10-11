@@ -25,7 +25,7 @@ Figure 1. Modular software design for social media analyzer web application
 <br />
 
 ## Web UI with Flask
-Web UI using Flask is [webapp.py](https://github.com/primnp/EC601_HW2/blob/main/webapp.py). The file which incorporates TwitterAPI and Google NLP API is [social_analyzer.py](https://github.com/primnp/EC601_HW2/blob/main/social_analyzer.py). To run the web UI, place both [webapp.py](https://github.com/primnp/EC601_HW2/blob/main/webapp.py) and [social_analyzer.py](https://github.com/primnp/EC601_HW2/blob/main/social_analyzer.py) in the same directory, then do
+[webapp.py](https://github.com/primnp/EC601_HW2/blob/main/webapp.py) is a Web UI implemented with Flask. The file which incorporates TwitterAPI and Google NLP API is [social_analyzer.py](https://github.com/primnp/EC601_HW2/blob/main/social_analyzer.py). To run the web UI, place both [webapp.py](https://github.com/primnp/EC601_HW2/blob/main/webapp.py) and [social_analyzer.py](https://github.com/primnp/EC601_HW2/blob/main/social_analyzer.py) in the same directory, then do
 ```
 python webapp.py
 ```

@@ -37,9 +37,7 @@ Below is the URI for my social media analyzer:
 URI  | What it does
 ------------- | -------------
 /soc-analyze/<string:username>/<int:nooftweets>  | View all tweets (within nooftweets limit) data (including tweet texts, tweet likes, tweet posted time, and hashtags) from a specified user (username)
-------------- | -------------
 /soc-analyze/<string:username>/<int:nooftweets>/sentiments | View all tweets entities and sentiment scores (within nooftweets limit) from a specified user (username)
-------------- | -------------
 /soc-analyze/<string:username>/<int:nooftweets>/hashtag/<string:hashtag> | Find user's tweet text which has the specified hashtag
 
 # Flask Example

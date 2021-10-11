@@ -9,14 +9,14 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
 ```
 
 ## Output Example
-This is an example of output retrieved from input text file of
+This is an example of output retrieved from input text file of:
 
 *Morus, a genus of flowering plants in the family Moraceae, consists of diverse species of deciduous trees commonly known as mulberries, growing wild and under cultivation in many temperate world regions.*
 
 <img src="./nlp_output.png" width="80%" />
 
 All the sections are separated by =====.
-The first section is entities and their respective sentiments retrieved from the input text.
+The first section is entities and their respective sentiments score retrieved from the input text.
 The second section is entities retrieved from the input text.
 The third section is the categories of content retrieved from the input text.
 

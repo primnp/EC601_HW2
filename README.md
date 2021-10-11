@@ -49,12 +49,14 @@ Figure 2. View all extracted tweets data from a specified user
 <br />
 2. /soc-analyze/(string:username)/(int:nooftweets)/sentiments
 <p align="center">
+ 
 Figure 3. View all tweets entities and sentiment scores from a specified user
 <br><img src="/Images/ex2.png" width="80%" />
 </p>
 <br />
 3. /soc-analyze/(string:username)/(int:nooftweets)/hashtag/(string:hashtag)
 <p align="center">
+ 
 Figure 4. Find user's tweet text which has the specified hastag
 <br><img src="/Images/ex3.png" width="80%" />
 </p>

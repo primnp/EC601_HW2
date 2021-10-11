@@ -43,7 +43,7 @@ URI  | What it does
 ### Flask Example
 1. /soc-analyze/(string:username)/(int:nooftweets)
 <p align="center">
-Figure 2. View all tweets from a specified user
+Figure 2. View all extracted tweets data from a specified user
 <br><img src="/Images/ex1.png" width="80%" />
 </p>
 <br />

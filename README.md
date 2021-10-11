@@ -40,7 +40,7 @@ URI  | What it does
 /soc-analyze/(string:username)/(int:nooftweets)/sentiments | View all tweets entities and sentiment scores (within nooftweets limit) from a specified user (username)
 /soc-analyze/(string:username)/(int:nooftweets)/hashtag/(string:hashtag) | Find user's tweet text which has the specified hashtag
 
-# Flask Example
+### Flask Example
 1. /soc-analyze/<string:username>/<int:nooftweets>
 <p align="center">
 Figure 2. View all tweets from a specified user

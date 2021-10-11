@@ -18,7 +18,7 @@ A web application that tells user the sentiment of tweets from Twitter
 ## Modular software design
 <p align="center">
 Figure 1. Modular software design for social media analyzer web application
-<br><img src="/Images/msd.png" width="65%" />
+<br><img src="/Images/msd.png" width="80%" />
 </p>
 <br />
 

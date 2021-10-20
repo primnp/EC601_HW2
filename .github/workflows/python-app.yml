@@ -13,6 +13,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7, 3.8, 3.9]
 
     steps:
     - uses: actions/checkout@v2
@@ -40,8 +43,13 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
+      env:
+        CONS_KEY: ${{ secrets.CONS_KEY }}
+        CONS_SECRET: ${{ secrets.CONS_SECRET }}
+        ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+        ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
       run: |
-        pytest
+        coverage run -m pytest -s --import-mode=importlib
     - name: Show coverage report
       run: |
         coverage report -m

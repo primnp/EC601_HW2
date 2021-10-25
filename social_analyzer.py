@@ -38,7 +38,7 @@ logging.basicConfig(filename="calc.log", level=logging.DEBUG, format="[%(levelna
 
 # function to retrieve information from twitter user
 def twitter_retrieve(text, number):
-    tweepy_api()
+    api = tweepy_api()
     if type(text) is str and type(number) is int and number < 200:
         tweets_data = []
         cursor = tweepy.Cursor(api.user_timeline, id=text, tweet_mode="extended").items(number)

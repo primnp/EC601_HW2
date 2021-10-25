@@ -89,8 +89,6 @@ def entities_sentiments_retrieve(array):
         logging.error("Error analyzing sentiment")
         return []
 
-
-
 # # function to gather all hashtag from users
 # def hashtags_retrieve(array)
 #     if isinstance(array, list):

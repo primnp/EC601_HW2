@@ -85,6 +85,12 @@ b. Google NLP ~~(Due Wednesday September 29th)~~  ***DONE***
 
 **Overall Completion:**  Sunday October 10th
 
+**Project 3a** (Due Date:  October 29th)
+* Write Tests for your Project 2
+* Write Unit tests for Project 2
+  * Learn how to use Actions
+  * Learn how to use Python Unit Tests
+
 
 Notes:
 * Error conditions

@@ -7,15 +7,28 @@ import sys
 import os
 from google.cloud import language_v1
 
-#twitter API credentials
-consumer_key = "your twitter API key"
-consumer_secret = "your twitter API secret"
-access_key = "your twitter access key"
-access_secret = "your twitter access secret"
+# #twitter API credentials
+# consumer_key = "your twitter API key"
+# consumer_secret = "your twitter API secret"
+# access_key = "your twitter access key"
+# access_secret = "your twitter access secret"
+#
+# auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+# auth.set_access_token(access_key, access_secret)
+# api = tweepy.API(auth)
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_key, access_secret)
-api = tweepy.API(auth)
+def tweepy_api():
+    #get secrets from github
+    cons_key = os.getenv("CONS_KEY")
+    cons_secret = os.getenv("CONS_SECRET")
+    accs_key = os.getenv("ACCESS_KEY")
+    accs_secret = os.getenv("ACCESS_SECRET")
+
+    #twitter api credentials set up
+    auth = tweepy.OAuthHandler(cons_key, cons_secret)
+    auth.set_access_token(accs_key, accs_secret)
+    api = tweepy.API(auth)
+    return api
 
 # Instantiates a client
 client = language_v1.LanguageServiceClient()
@@ -25,6 +38,7 @@ logging.basicConfig(filename="calc.log", level=logging.DEBUG, format="[%(levelna
 
 # function to retrieve information from twitter user
 def twitter_retrieve(text, number):
+    tweepy_api()
     if type(text) is str and type(number) is int and number < 200:
         tweets_data = []
         cursor = tweepy.Cursor(api.user_timeline, id=text, tweet_mode="extended").items(number)

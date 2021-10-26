@@ -1,7 +1,7 @@
 tweepy
 google-cloud-language
 json
-pandas as pd
+pandas
 logging
 flask
 flask-restful

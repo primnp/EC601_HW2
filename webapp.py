@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, jsonify, request, redirect, url_for
 from flask_restful import Resource, Api
-from flask_pymongo import PyMongo
 import os
 import json
 import logging

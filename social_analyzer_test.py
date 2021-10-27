@@ -3,6 +3,7 @@ import time
 import sys
 
 def test_twtretrieve():
+    res = []
     res = sa.twitter_retrieve("danielricciardo", 10)
     assert isinstance(res, list)
     assert type(res[0]["Likes"]) == int

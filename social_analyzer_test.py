@@ -3,9 +3,18 @@ import time
 import sys
 
 def test_twtretrieve():
+    input1 = "honeygrow"
+    res = sa.twitter_retrieve(input1, 3)
+    assert isinstance(res, list)
+    assert type(res[0]["Likes"] == int)
+    
     input2 = None
     res2 = sa.twitter_retrieve(input2, 3)
     assert res2 == []
+    
+    input3 = 250
+    res3 = sa.twitter_retrieve(input1, input3)
+    assert res3 == []
 
 def test_entsentretrieve():
     input1 = dict()

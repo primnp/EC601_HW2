@@ -44,4 +44,4 @@ def test_hashtagretrieve():
 
     hashtag2 = "no"
     res2 = sa.txt_hashtag_retrieve(hashtag2, input1)
-    assert res4 == []
+    assert res2 == []

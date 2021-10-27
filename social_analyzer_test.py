@@ -23,7 +23,7 @@ def test_entsentretrieve():
     input1["Time"] = time.gmtime(0)
     input1["Hashtags"] = "test hashtag"
 
-    res1 = sa.entities_sentiments_retrieve(input2)
+    res1 = sa.entities_sentiments_retrieve(input1)
     assert isinstance(res1, list)
     assert type(res1[0] == str)
 

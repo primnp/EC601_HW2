@@ -6,7 +6,7 @@ def test_twtretrieve():
     input1 = "honeygrow"
     res = sa.twitter_retrieve(input1, 3)
     assert isinstance(res, list)
-    assert type(res[0] == str)
+    assert type(res[0]["Likes"] == int)
 
     input2 = None
     res2 = sa.twitter_retrieve(input2, 3)
@@ -25,7 +25,7 @@ def test_entsentretrieve():
 
     res1 = sa.entities_sentiments_retrieve(input1)
     assert isinstance(res1, list)
-    assert type(res1[0] == str)
+    assert type(res1[0]["Tweet Text"] == str)
 
     input2 = "array"
     res2 = sa.entities_sentiments_retrieve(input2)

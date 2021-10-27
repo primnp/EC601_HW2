@@ -1,7 +1,7 @@
 # Twitter APIs
 
 ## Background
-[twitter_test.py](https://github.com/primnp/EC601_HW2/blob/main/TwitterAPI/twitter_test.py) is a python file which allows user to retrieve tweet text, number of like, time the tweet was created, and hashtag associated with the tweet. User can specify how many tweets they want to retrieve. All the data retrieved will be stored inside pandas dataframe.
+[twitter_t.py](https://github.com/primnp/EC601_HW2/blob/main/TwitterAPI/twitter_t.py) is a python file which allows user to retrieve tweet text, number of like, time the tweet was created, and hashtag associated with the tweet. User can specify how many tweets they want to retrieve. All the data retrieved will be stored inside pandas dataframe.
 
 User can also further manipulate dataframe to get rid of, for example, retweets (RT) and many more.
 

@@ -44,7 +44,7 @@ def twitter_retrieve(text, number):
         cursor = tweepy.Cursor(api.user_timeline, user_id=text, tweet_mode="extended").items(number)
         for i in cursor:
             res = dict()
-            res["Tweets"] = i.full_text
+            res["Tweets"] = i.text
             res["Likes"] = i.favorite_count
             res["Time"] = i.created_at
             hash = (i.entities['hashtags'])

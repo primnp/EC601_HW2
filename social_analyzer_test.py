@@ -12,7 +12,7 @@ def test_twtretrieve():
     assert res2 == []
 
     input3 = 250
-    res3 = sa.twitter_retrieve(input1, input3)
+    res3 = sa.twitter_retrieve("honeygrow", input3)
     assert res3 == []
 
 def test_entsentretrieve():

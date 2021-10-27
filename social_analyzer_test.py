@@ -22,8 +22,17 @@ def test_entsentretrieve():
     input1["Likes"] = 4
     input1["Time"] = time.gmtime(0)
     input1["Hashtags"] = "test hashtag"
+    tweets_data = []
+    tweets_data.append(input1)
 
-    res1 = sa.entities_sentiments_retrieve(input1)
+    input2 = dict()
+    input2["Tweets"] = "a quick brown fox jumps"
+    input2["Likes"] = 4
+    input2["Time"] = time.gmtime(0)
+    input2["Hashtags"] = "jumping"
+    tweets_data.append(input2)
+
+    res1 = sa.entities_sentiments_retrieve(tweets_data)
     assert isinstance(res1, list)
     assert type(res1[0]["Tweet Text"]) == str
 

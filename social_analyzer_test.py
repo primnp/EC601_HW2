@@ -34,7 +34,7 @@ def test_entsentretrieve():
 
     res1 = sa.entities_sentiments_retrieve(tweets_data)
     assert isinstance(res1, list)
-    assert type(res1[0]["Tweet Text"]) == str
+    assert type(res1[0]["Tweet text"]) == str
 
     input2 = "array"
     res2 = sa.entities_sentiments_retrieve(input2)

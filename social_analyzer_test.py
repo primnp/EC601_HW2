@@ -1,4 +1,4 @@
-from EC601_HW2 import social_analyzer as sa
+import social_analyzer as sa
 import time
 import sys
 

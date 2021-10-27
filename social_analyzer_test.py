@@ -12,9 +12,6 @@ def test_twtretrieve():
     res2 = sa.twitter_retrieve(input2, 3)
     assert res2 == []
 
-    res3 = sa.twitter_retrieve("danielricciardo", 250)
-    assert res3 == []
-
 def test_entsentretrieve():
     input1 = dict()
     input1["Tweets"] = "test tweets"

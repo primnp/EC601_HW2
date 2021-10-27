@@ -3,7 +3,7 @@ import time
 import sys
 
 def test_twtretrieve():
-    res = sa.twitter_retrieve("honeygrow", 3)
+    res = sa.twitter_retrieve("danielricciardo", 10)
     assert isinstance(res, list)
     assert type(res[0]["Likes"]) == int
 
@@ -11,8 +11,7 @@ def test_twtretrieve():
     res2 = sa.twitter_retrieve(input2, 3)
     assert res2 == []
 
-    input3 = 250
-    res3 = sa.twitter_retrieve("honeygrow", input3)
+    res3 = sa.twitter_retrieve("danielricciardo", 250)
     assert res3 == []
 
 def test_entsentretrieve():

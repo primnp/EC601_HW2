@@ -10,10 +10,14 @@ To run twitter_test.py, user needs a Twitter developer account. With Twitter dev
 
 twitter_test.py uses tweepy library. Tweepy provides access to the entire twitter RESTful API methods.
 User needs to install the following to use tweepy:
-> pip install tweepy
+```
+pip install tweepy
+```
 
 In addition to tweepy, user needs to have pandas in the python path. User can install pandas using:
-> pip install pandas
+```
+pip install pandas
+```
 
 ## Output example
 This is an example of 46 tweets retrieved from @danielricciardo twitter account in dataframe format. The dataframe includes: tweets text, no of likes per tweets, time the tweets was created, and the hashtag associated with each tweets.

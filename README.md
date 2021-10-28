@@ -67,8 +67,8 @@ In the future, I aim to implement my user stories stretch goal and improve UI so
 
 ## Tests (for Project 3)
 
-## Timeline
-**Phase 1:**
+## Project 2 and 3 Timeline
+**Project 2: Phase 1:**
 
 a. Twitter APIs ~~(Due Sunday September 26th)~~ ***DONE***
   * Write test programs to exercise different twitter APIs.  For example, retrieving tweets, searching per time, hashtags, etc.
@@ -78,7 +78,7 @@ b. Google NLP ~~(Due Wednesday September 29th)~~  ***DONE***
   * Write test programs to exercise different Google NLP APIs.  Focus on Sentiment analysis.
   * All your programs should be on GitHub including a README file explaining your tests and results.
 
-**Phase 2:**
+**Project 3: Phase 2:**
 * Define MVP and user stories ~~(Due Sunday October 3rd)~~ ***DONE***
 * Translate user stories to a modular design ***DONE***
 * Who is your user? ***DONE***

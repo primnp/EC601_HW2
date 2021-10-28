@@ -100,6 +100,7 @@ The following are **test cases for [social_analyzer.py](https://github.com/primn
    * For example: string instead of array, string instead of a number, did not provide an input (None) etc.
 
 All these rainy day scenarios were handled by: if an error occur, the function return an empty array on flask with information on log file on why the error occured
+
 **Unit tests** for social_analyzer.py is [social_analyzer_test.py](https://github.com/primnp/EC601_HW2/blob/main/social_analyzer_test.py)
 
 ## Project 2 and 3 Timeline

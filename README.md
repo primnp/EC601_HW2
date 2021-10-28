@@ -70,15 +70,22 @@ In the future, I aim to implement my user stories stretch goal and improve UI so
 
 **Sunny day scenarios:**
 1. twitter_retrieve function return a dict() of Twitter user data extracted. The dict() should have following key-value:
-  * Key: Tweets,  Value type: str
-  * Key: Likes, Value type:int
-  * Key: Time, Value type: datetime.datetime
-  * Key: Hashtags, Value type: list
+Key | Value Type 
+--- | --- 
+Tweets | str
+Likes | int
+Time | datetime.datetime
+Hashtags | list
+
 2. entities_sentiments function return a dict() of Twitter user data with entities and sentiments analyzed. The dict() should have the following key-value:
-  * Key: Tweet text, Value type: str
-  * Key: Tweet Entities, Value type: list
-  * Key: Twitter’s Likes, Value type: int
-  * Twitter’s Posted Time, Value type: list
+Key | Value Type 
+--- | --- 
+Tweet text | str
+Tweet Entities | list
+Twitter's Likes | int
+Twitter's Posted Time | datetme.datetime
+Twitter's Hashtags | list
+
 3. txt_hashtag_retrieve function return an array of texts associated with the hashtag specified
 
 ---
@@ -90,7 +97,7 @@ In the future, I aim to implement my user stories stretch goal and improve UI so
 4. If Twitter authentication failed
 5. If queried array is out of range
 6. If user input the wrong type of input 
-  * For example: string instead of array, string instead of a number, did not provide an input (None) etc.
+   * For example: string instead of array, string instead of a number, did not provide an input (None) etc.
 
 All these rainy day scenarios were handled by: if an error occur, the function return an empty array on flask with information on log file on why the error occured
 **Unit tests** for social_analyzer.py is [social_analyzer_test.py](https://github.com/primnp/EC601_HW2/blob/main/social_analyzer_test.py)

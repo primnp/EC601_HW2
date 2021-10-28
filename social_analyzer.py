@@ -87,7 +87,7 @@ def entities_sentiments_retrieve(array):
 
             fin_results.append(twt_extracted_dat)
 
-        logging.info('Sentiments analyzed')
+        logging.info("Sentiments analyzed")
 
         return fin_results
 
@@ -116,7 +116,7 @@ def txt_hashtag_retrieve(text, array):
                     twitter_txt = array[i]["Tweet text"]
                     results.append(twitter_txt)
 
-        logging.info('Hashtag found')
+        logging.info("Hashtag found")
 
         return results
 

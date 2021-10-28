@@ -70,25 +70,23 @@ In the future, I aim to implement my user stories stretch goal and improve UI so
 
 **Sunny day scenarios:**
 1. twitter_retrieve function return a dict() of Twitter user data extracted. The dict() should have following key-value:
-Key | Value Type 
---- | --- 
-Tweets | str
-Likes | int
-Time | datetime.datetime
-Hashtags | list
+| Key | Value Type |
+| --- | --- |
+| Tweets | str |
+| Likes | int |
+| Time | datetime.datetime |
+| Hashtags | list |
 
 2. entities_sentiments function return a dict() of Twitter user data with entities and sentiments analyzed. The dict() should have the following key-value:
-Key | Value Type 
---- | --- 
-Tweet text | str
-Tweet Entities | list
-Twitter's Likes | int
-Twitter's Posted Time | datetme.datetime
-Twitter's Hashtags | list
+| Key | Value Type |
+| --- | --- |
+| Tweet text | str |
+| Tweet Entities | list |
+| Twitter's Likes | int |
+| Twitter's Posted Time | datetme.datetime |
+| Twitter's Hashtags | list |
 
 3. txt_hashtag_retrieve function return an array of texts associated with the hashtag specified
-
----
 
 **Rainy day scenarios:**
 1. If user input the wrong Twitter user name or if a Twitter username does not exist

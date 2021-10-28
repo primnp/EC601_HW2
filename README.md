@@ -114,7 +114,7 @@ b. Google NLP ~~(Due Wednesday September 29th)~~  ***DONE***
   * Write test programs to exercise different Google NLP APIs.  Focus on Sentiment analysis.
   * All your programs should be on GitHub including a README file explaining your tests and results.
 
-**Project 3: Phase 2:**
+**Project 2: Phase 2:**
 * Define MVP and user stories ~~(Due Sunday October 3rd)~~ ***DONE***
 * Translate user stories to a modular design ***DONE***
 * Who is your user? ***DONE***

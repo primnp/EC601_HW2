@@ -35,6 +35,7 @@ def analyze_twtsentiments(username, nooftweets):
     res["Results"] = sa.entities_sentiments_retrieve(arr)
     return res
 
+# retrieve user's tweet texts associated with the specified hashtag
 @app.route('/soc-analyze/<string:username>/<int:nooftweets>/hashtag/<string:hashtag>')
 def findfrom_hashtag(username, nooftweets, hashtag):
     arr = sa.twitter_retrieve(username, nooftweets)

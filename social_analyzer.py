@@ -7,8 +7,7 @@ import sys
 import os
 from google.cloud import language_v1
 
-
-
+# function to set up tweepy
 def tweepy_api():
     # get secrets from github
     cons_key = os.getenv("CONS_KEY")

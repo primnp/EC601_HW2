@@ -70,6 +70,7 @@ The following are **test cases for [social_analyzer.py](https://github.com/primn
 
 **Sunny day scenarios:**
 1. twitter_retrieve function return a dict() of Twitter user data extracted. The dict() should have following key-value:
+
 | Key | Value Type |
 | --- | --- |
 | Tweets | str |
@@ -78,6 +79,7 @@ The following are **test cases for [social_analyzer.py](https://github.com/primn
 | Hashtags | list |
 
 2. entities_sentiments function return a dict() of Twitter user data with entities and sentiments analyzed. The dict() should have the following key-value:
+
 | Key | Value Type |
 | --- | --- |
 | Tweet text | str |

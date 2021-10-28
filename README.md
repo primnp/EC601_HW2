@@ -65,6 +65,8 @@ To handle error conditions, there is a log file (calc.log) which will be created
 ## Future Improvements
 In the future, I aim to implement my user stories stretch goal and improve UI so that it will be more user friendly.
 
+## Tests (for Project 3)
+
 ## Timeline
 **Phase 1:**
 

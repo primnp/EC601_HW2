@@ -32,7 +32,7 @@ def twitter_retrieve(text, number):
     api = tweepy_api()
     if type(text) is str and type(number) is int and number < 200:
         tweets_data = []
-        cursor = tweepy.Cursor(api.user_timeline, user_id=text, tweet_mode="extended").items(number)
+        cursor = tweepy.Cursor(api.user_timeline, id=text, tweet_mode="extended").items(number)
         for i in cursor:
             res = dict()
             res["Tweets"] = i.full_text

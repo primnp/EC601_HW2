@@ -66,7 +66,7 @@ To handle error conditions, there is a log file (calc.log) which will be created
 In the future, I aim to implement my user stories stretch goal and improve UI so that it will be more user friendly.
 
 ## Tests (for Project 3)
-**Test cases for [social_analyzer.py](https://github.com/primnp/EC601_HW2/blob/main/social_analyzer.py)**
+The following are **test cases for [social_analyzer.py](https://github.com/primnp/EC601_HW2/blob/main/social_analyzer.py)**
 
 **Sunny day scenarios:**
 1. twitter_retrieve function return a dict() of Twitter user data extracted. The dict() should have following key-value:
